@@ -9,12 +9,10 @@ html {
 }
 
 body {
-    // color: #000000;
-    // background: #ffffff;
-    // font-family: 'Montserrat', sans-serif;
-    // font-style: normal;
-    // font-weight: 500;
-
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background: #161D27;
 }
 
 body.lock {
@@ -22,7 +20,7 @@ body.lock {
 }
 
 .container {
-    max-width: 1260px;
+    max-width: 1400px;
     margin: 0 auto;
-    padding: 0 10px;
+    padding: 0 20px;
 }
