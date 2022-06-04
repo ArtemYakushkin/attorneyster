@@ -1,6 +1,6 @@
 .hero {
-    background-image: url(/img/hero-bg-gradient.png),
-        url(/img/hero-bg.jpg);
+    background-image: url(/img/hero/hero-bg-gradient.png),
+        url(/img/hero/hero-bg.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -31,7 +31,7 @@
     &__title::before {
         content: '';
         position: absolute;
-        background-image: url(/img/pattern-1.svg);
+        background-image: url(/img/pattern/pattern-1.svg);
         background-repeat: no-repeat;
         width: 95px;
         height: 44px;
