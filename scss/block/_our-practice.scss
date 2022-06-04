@@ -1,0 +1,102 @@
+.our-practice {
+    padding: 120px 0;
+    &__top {
+        display: flex;
+        // align-items: center;
+        justify-content: space-between;
+    }
+
+    &__title {
+        font-family: 'Cormorant Garamond';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 45px;
+        line-height: 1.3;
+        letter-spacing: 0.4px;
+        text-transform: capitalize;
+        color: #FFFFFF;
+        max-width: 370px;
+        margin-bottom: 115px;
+        position: relative;
+    }
+
+    &__title::after {
+        content: '';
+        position: absolute;
+        background-image: url(/img/pattern-1.svg);
+        background-repeat: no-repeat;
+        width: 95px;
+        height: 44px;
+        top: 130px;
+        left: 0;
+    }
+
+    &__text {
+        font-size: 20px;
+        line-height: 1.6;
+        letter-spacing: 0.4px;
+        color: #D7D7D7;
+        max-width: 660px;
+        margin-top: 43px;
+    }
+
+    &__bottom {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, auto);
+        row-gap: 30px;
+        column-gap: 30px;
+    }
+
+    &__card {
+        padding: 55px 50px 70px 50px;
+        background: #1F2732;
+    }
+
+    &__info {
+        padding-bottom: 28px;
+        border-bottom: 1px solid #4E555F;
+        margin-bottom: 58px;
+    }
+
+    &__title-card {
+        font-family: 'Cormorant Garamond';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 35px;
+        line-height: 1.6;
+        letter-spacing: 0.4px;
+        color: #FFFFFF;
+        margin-bottom: 8px;
+    }
+
+    &__text-card {
+        font-size: 20px;
+        line-height: 1.6;
+        letter-spacing: 0.4px;
+        color: #D7D7D7;
+    }
+
+    &__interactivity {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &__btn {
+        font-size: 20px;
+        line-height: 1.6;
+        letter-spacing: 0.4px;
+        text-transform: capitalize;
+        color: #FFFFFF;
+        background: #161D27;
+        padding: 13px 42px;
+        transition: transform 0.5s;
+        transform: scale(1, 1);
+
+        &:hover {
+            transform: scale(0.8, 0.8);
+            background: #4E555F;
+        }
+    }
+}

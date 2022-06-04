@@ -1,0 +1,72 @@
+.hero {
+    background-image: url(/img/hero-bg-gradient.png),
+        url(/img/hero-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 315px;
+
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__left {
+        max-width: 672px;
+    }
+
+    &__title {
+        font-family: 'Cormorant Garamond';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 65px;
+        line-height: 1.2;
+        letter-spacing: 0.4px;
+        color: #FFFFFF;
+        margin-bottom: 21px;
+        position: relative;
+    }
+
+    &__title::before {
+        content: '';
+        position: absolute;
+        background-image: url(/img/pattern-1.svg);
+        background-repeat: no-repeat;
+        width: 95px;
+        height: 44px;
+        top: -58px;
+        left: 0;
+    }
+
+    &__text {
+        font-size: 22px;
+        line-height: 1.81;
+        letter-spacing: 0.4px;
+        color: #D1B06B;
+        margin-bottom: 28px;
+    }
+
+    &__btn {
+        font-size: 22px;
+        line-height: 1.59;
+        text-align: center;
+        letter-spacing: 0.4px;
+        color: #1F2732;
+        padding: 24px 71px;
+        background: #D1B06B;
+        border: 1px solid #D1B06B;
+        transition: transform 0.5s;
+        transform: scale(1, 1);
+
+        &:hover {
+            transform: scale(0.8, 0.8);
+            color: #D1B06B;
+            background: #1F2732;
+        }
+    }
+
+    &__right {
+        max-width: 672px;
+    }
+}
