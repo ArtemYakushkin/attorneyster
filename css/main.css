@@ -654,4 +654,133 @@ button {
   align-items: center;
   justify-content: space-between;
 }
+
+.history {
+  padding: 140px 0;
+  background-image: url(/img/history/history-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.history__inner {
+  background: rgba(31, 39, 50, 0.85);
+  padding: 80px 60px 70px 60px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.history__history {
+  max-width: 418px;
+  margin-right: 70px;
+}
+
+.history__title {
+  font-family: 'Cormorant Garamond';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 45px;
+  line-height: 1.3;
+  letter-spacing: 0.4px;
+  text-transform: capitalize;
+  color: #FFFFFF;
+  margin-bottom: 105px;
+  position: relative;
+}
+
+.history__title::before {
+  content: '';
+  position: absolute;
+  background-image: url(/img/pattern/pattern-1.svg);
+  background-repeat: no-repeat;
+  width: 95px;
+  height: 44px;
+  bottom: -55px;
+  left: 0;
+}
+
+.history__item + .history__item {
+  margin-top: 35px;
+}
+
+.history__subtitle {
+  font-size: 20px;
+  line-height: 1.3;
+  letter-spacing: 0.4px;
+  text-transform: capitalize;
+  color: #D1B06B;
+  margin-bottom: 13px;
+}
+
+.history__text {
+  font-size: 20px;
+  line-height: 1.6;
+  letter-spacing: 0.4px;
+  color: #D7D7D7;
+}
+
+.history__images {
+  max-width: 264px;
+  margin-right: 105px;
+}
+
+.history__experienc {
+  max-width: 383px;
+}
+
+.history__text-experienc {
+  font-size: 20px;
+  line-height: 1.6;
+  letter-spacing: 0.4px;
+  color: #D7D7D7;
+  margin-bottom: 37px;
+}
+
+.history__list-experienc {
+  margin-bottom: 50px;
+}
+
+.history__item-experienc + .history__item-experienc {
+  margin-top: 40px;
+}
+
+.history__content-experienc {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  border-bottom: 5px solid #ffffff;
+}
+
+.history__line-experienc {
+  height: 5px;
+  background-color: #D1B06B;
+  margin-top: -15px;
+}
+
+.history__text-content, .history__num-experienc {
+  font-size: 20px;
+  line-height: 1.6;
+  letter-spacing: 0.4px;
+  color: #FFFFFF;
+}
+
+.history__btn {
+  font-size: 22px;
+  line-height: 1.6;
+  text-align: center;
+  letter-spacing: 0.4px;
+  color: #1F2732;
+  padding: 25px 71px;
+  background: #D1B06B;
+  border: 1px solid #D1B06B;
+  transition: transform 0.5s;
+  transform: scale(1, 1);
+}
+
+.history__btn:hover {
+  transform: scale(0.8, 0.8);
+  color: #D1B06B;
+  background: #1F2732;
+}
 /*# sourceMappingURL=main.css.map */

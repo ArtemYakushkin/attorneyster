@@ -1,0 +1,129 @@
+.history {
+    padding: 140px 0;
+    background-image: url(/img/history/history-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    &__inner {
+        background: rgba(31, 39, 50, 0.85);
+        padding: 80px 60px 70px 60px;
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+    }
+
+    &__history {
+        max-width: 418px;
+        margin-right: 70px;
+    }
+
+    &__title {
+        font-family: 'Cormorant Garamond';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 45px;
+        line-height: 1.3;
+        letter-spacing: 0.4px;
+        text-transform: capitalize;
+        color: #FFFFFF;
+        margin-bottom: 105px;
+        position: relative;
+
+        &::before {
+            content: '';
+            position: absolute;
+            background-image: url(/img/pattern/pattern-1.svg);
+            background-repeat: no-repeat;
+            width: 95px;
+            height: 44px;
+            bottom: -55px;
+            left: 0;
+        }
+    }
+
+    &__item + &__item {
+        margin-top: 35px;
+    }
+
+    &__subtitle {
+        font-size: 20px;
+        line-height: 1.3;
+        letter-spacing: 0.4px;
+        text-transform: capitalize;
+        color: #D1B06B;
+        margin-bottom: 13px;
+    }
+
+    &__text {
+        font-size: 20px;
+        line-height: 1.6;
+        letter-spacing: 0.4px;
+        color: #D7D7D7;
+    }
+
+    &__images {
+        max-width: 264px;
+        margin-right: 105px;
+    }
+
+    &__experienc {
+        max-width: 383px;
+    }
+
+    &__text-experienc {
+        font-size: 20px;
+        line-height: 1.6;
+        letter-spacing: 0.4px;
+        color: #D7D7D7;
+        margin-bottom: 37px;
+    }
+
+    &__list-experienc {
+        margin-bottom: 50px;
+    }
+
+    &__item-experienc + &__item-experienc {
+        margin-top: 40px;
+    }
+
+    &__content-experienc {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 10px;
+        border-bottom: 5px solid #ffffff;
+    }
+
+    &__line-experienc {
+        height: 5px;
+        background-color: #D1B06B;
+        margin-top: -15px;
+    }
+
+    &__text-content,
+    &__num-experienc {
+        font-size: 20px;
+        line-height: 1.6;
+        letter-spacing: 0.4px;
+        color: #FFFFFF;
+    }
+
+    &__btn {
+        font-size: 22px;
+        line-height: 1.6;
+        text-align: center;
+        letter-spacing: 0.4px;
+        color: #1F2732;
+        padding: 25px 71px;
+        background: #D1B06B;
+        border: 1px solid #D1B06B;
+        transition: transform 0.5s;
+        transform: scale(1, 1);
+
+        &:hover {
+            transform: scale(0.8, 0.8);
+            color: #D1B06B;
+            background: #1F2732;
+        }
+    }
+}
