@@ -30,7 +30,7 @@
         &::after {
             content: '';
             position: absolute;
-            background-image: url(/img/pattern/pattern-2.svg);
+            background-image: url(../img/pattern/pattern-2.svg);
             background-repeat: no-repeat;
             width: 95px;
             height: 44px;
@@ -117,7 +117,7 @@
 
     &__card--picture {
         display: block;
-        background-image: url(/img/motivation/card-bg.jpg);
+        background-image: url(../img/motivation/card-bg.jpg);
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;

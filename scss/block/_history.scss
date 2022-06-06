@@ -1,6 +1,6 @@
 .history {
     padding: 140px 0;
-    background-image: url(/img/history/history-bg.jpg);
+    background-image: url(../img/history/history-bg.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -33,7 +33,7 @@
         &::before {
             content: '';
             position: absolute;
-            background-image: url(/img/pattern/pattern-1.svg);
+            background-image: url(../img/pattern/pattern-1.svg);
             background-repeat: no-repeat;
             width: 95px;
             height: 44px;
